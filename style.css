@@ -1,0 +1,211 @@
+body,
+h2 {
+  margin: 0;
+  font-family: sans-serif;
+}
+.landing {
+  background-image: url("img1.jpg");
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  color: white;
+}
+header a {
+  text-decoration: none;
+  color: rgb(75, 12, 12);
+  font-weight: bolder;
+  font-size: larger;
+  margin-top: 20px;
+  font-style: oblique;
+}
+header {
+  display: flex;
+  padding: 10px;
+  flex-wrap: wrap;
+  row-gap: 5px;
+}
+#logo {
+  flex: 3;
+  font-size: 30px;
+  min-width: 260px;
+}
+nav {
+  flex: 1;
+  display: flex;
+  align-items: right;
+  margin-left: 10px;
+}
+nav a {
+  flex: 1;
+}
+nav a:hover {
+  color: white;
+}
+.maintext {
+  display: flex;
+  flex-direction: column;
+  height: 50vh;
+  justify-content: center;
+  padding: 10px;
+  margin: 10px;
+}
+.tagline1 {
+  color: rgb(10, 71, 10);
+  font-size: 25px;
+  font-weight: bolder;
+}
+.tagline2 {
+  color: rgb(10, 71, 10);
+  font-size: 25px;
+  font-weight: bolder;
+}
+.callus {
+  color: rgb(10, 71, 10);
+  font-size: 15px;
+}
+.maintext div {
+  margin-top: 5px;
+}
+.maintext button {
+  width: 10vw;
+  margin-top: 4px;
+  border-radius: 10px;
+  padding: 10px;
+  background-color: rgb(83, 40, 40);
+  color: whitesmoke;
+  border: 3px solid black;
+  font-weight: bolder;
+  font-size: 10px;
+}
+.menu {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+  background: linear-gradient(to right, rgb(100, 100, 100), rgb(53, 52, 52));
+  color: white;
+}
+
+#menuheading {
+  background: linear-gradient(to right, rgb(100, 100, 100), rgb(53, 52, 52));
+  font-size: 2.5em;
+  color: rgb(131, 210, 13);
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+}
+#locheading {
+  background: linear-gradient(to right, rgb(100, 100, 100), rgb(53, 52, 52));
+  font-size: 2.5em;
+  color: rgb(131, 210, 13);
+  display: flex;
+  padding: 5px;
+  padding-left: 10px;
+  justify-content: center;
+}
+
+.menu th {
+  color: var(--green);
+  font-size: 1.8em;
+}
+
+table {
+  width: 100%;
+  padding: 1em;
+}
+
+.menu tr {
+  display: flex;
+  justify-content: center;
+  margin-top: 5px;
+}
+
+.menu td:nth-child(1) {
+  flex: 1;
+  justify-self: left;
+}
+
+.menu td:nth-child(2) {
+  justify-self: right;
+}
+
+.maincourse {
+  grid-row: span 2;
+}
+.menu h2 {
+  color: #000;
+  flex: 3;
+  padding-left: 150px;
+  min-width: 500px;
+}
+.locations {
+  background: linear-gradient(to right, rgb(100, 100, 100), rgb(53, 52, 52));
+  color: rgb(74, 12, 12);
+  display: flex;
+}
+
+.locations h2 {
+  color: black;
+  margin-bottom: 20px;
+  margin-left: 0em;
+  font-size: 20px;
+}
+
+.locations div {
+  flex: 2;
+  padding: 1em;
+  min-width: 10em;
+  font-size: 15px;
+  padding-left: 150px;
+}
+
+footer {
+  background-color: rgb(55, 55, 55), rgb(53, 52, 52);
+  color: black;
+  padding: 0px;
+}
+
+#copyright {
+  margin-left: 20px;
+  color: black;
+}
+.social-menu ul li {
+  list-style: none;
+  display: inline-block;
+  margin: 0 15px;
+}
+
+.social-menu ul li .fab {
+  font-size: 20px;
+  line-height: 40px;
+  transition: 0.3s;
+  color: #000;
+}
+
+.social-menu ul li .fab:hover {
+  color: #fff;
+}
+
+.social-menu ul li a {
+  position: relative;
+  display: block;
+  width: 40px;
+  height: 40px;
+  border-radius: 40%;
+  background-color: #fff;
+  text-align: center;
+  transition: 0.6s;
+  box-shadow: 0 5px 4px rgba(0, 0, 0, 0.5);
+}
+
+.social-menu ul li a:hover {
+  transform: translate(0, -10%);
+}
+
+.social-menu ul li:nth-child(1) a:hover {
+  background-color: #4267b2;
+}
+.social-menu ul li:nth-child(2) a:hover {
+  background-color: #e4405f;
+}
+.social-menu ul li:nth-child(3) a:hover {
+  background-color: #00acee;
+}
